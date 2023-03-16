@@ -1,0 +1,21 @@
+.Reserva {
+    color: rgb(129, 16, 16);
+    display: flexbox;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+.form-inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    color: beige;
+  }
+  
+  #botao {
+    color: #9c9393;
+
+
+  }
+  

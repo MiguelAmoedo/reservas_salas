@@ -1,0 +1,115 @@
+/* Estilos para o menu de navegação */
+.navbar {
+    background-color: #ff0000; /* fundo branco */
+    border-bottom: 1px solid rgb(253, 241, 255) ; /* borda cinza na parte inferior */
+  }
+  
+  .navbar-brand {
+    
+    font-size: 2rem; /* tamanho grande para o título do site */
+  }
+  
+  .nav-link {
+    font-size: 1.2rem; /* tamanho grande para as opções do menu */
+  }
+  
+  .btn-intranet {
+    
+    font-size: 1.2rem; /* tamanho grande para o botão de intranet */
+  }
+  
+  /* Estilos para o botão de menu responsivo */
+  .navbar-toggler {
+    
+    border: none; /* remove a borda */
+    background-color: transparent; /* fundo transparente */
+  }
+  
+  .navbar-toggler-icon {
+   
+    font-size: 2rem; /* tamanho grande para o ícone */
+  }
+  
+  /* Estilos para o menu de navegação responsivo */
+  @media (max-width: 992px) {
+    .navbar-collapse {
+     
+      border-top: 1px solid rgb(217, 0, 255)
+      ; /* borda cinza na parte superior */
+      padding: 1rem; /* espaçamento interno */
+    }
+  
+    .nav-link {
+        
+      display: block; /* exibe as opções do menu em blocos */
+      padding: 0.5rem 0; /* espaçamento interno superior e inferior */
+      color: rgb(255, 153, 0);
+    }
+  
+    .btn-intranet {
+      display: block; /* exibe o botão de intranet em bloco */
+      margin-top: 1rem; /* margem superior para separar do menu */
+    }
+  }
+  #cabecalho {
+    
+    border: none;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(253, 241, 255);
+ 
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  #home-link,
+  #contato-link {
+    font-size: 1.2rem;
+  }
+  
+  #intranet-btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    #home-link,
+    #contato-link {
+      font-size: 1rem;
+    }
+  
+    #intranet-btn {
+      font-size: 1rem;
+    }
+  }
+
+
+  
+  #login-link {
+    
+
+position: absolute;
+width: 100px;
+height: 29px;
+right: 1px;
+top: 15px;
+display: block;
+font-variant: small-caps;
+
+
+
+    
+    font-size: 1.2rem; /* tamanho grande para o botão de intranet */
+  }
+  
+
+
+
+  
+
+

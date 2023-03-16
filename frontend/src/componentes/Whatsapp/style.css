@@ -1,0 +1,25 @@
+.Whats {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 120px;
+    right: 1px;
+    z-index: 999;
+    object-fit: cover;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+
+
+  
+  .WhatsLogo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  
