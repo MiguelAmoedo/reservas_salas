@@ -3,39 +3,24 @@ import { Container, Row } from 'react-bootstrap';
 import Cabecalho from '../componentes/cabecalho/cabecalho';
 import Footer from '../componentes/Footer/Footer'
 import Whats from '../componentes/Whatsapp/Whats'
-import Reserva from '../componentes/Reserva/Reserva'
+/* import Reservaitem from '../componentes/Modal/BSmodal'; */
 import Carrossel from '../paginas/carrossel'
 import './style.css'
 function Home() {
   return (
-    
-    
-
 <div>
       <Cabecalho/>
-      <Row sm={10}>
-        <br></br>
-        <br></br>
-        
-        
-
-        
+      <Row sm={5}>
       </Row>
+      
       <Carrossel/>
-      <br></br>
-
-      <Reserva/>
       <Whats/>
       <br></br>
-       
-        
+      <br></br>
+      <br></br>
       
       <Footer/>
-
     </div>
-
-    
-
       )
       };
 
