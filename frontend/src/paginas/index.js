@@ -9,37 +9,39 @@ import Sla from '../imgs/salas.png';
 import Hosmi from '../imgs/usuario.png';
 import './style.css'
  
+
+
 function Index() {
-  return (
-    
-    <div className='index'>
 
-
-      <Cabecalho/>
-
-        <br></br>
-
-
-        <div>
-      <Link to={'/funcionarios'}><img src={Func} className='imgindex'/></Link>
-      <Link to={'/clientes'}><img src={Client} className='imgindex'/></Link>
-      </div>
-
-        <br></br>
-
-      <div>
-      <Link to={'/sala'}><img src={Sla} className='imgindex2'/></Link>
-      <Link to={'/usuario'}><img src={Hosmi} className='imgindex2'/></Link>
-      </div>
+    return (
       
+    <Container className='indexc'> 
+     <Cabecalho/>
+    <h1 className='intranetb'>INTRANET</h1>
+    <br></br>
+        <div className='logob1'>
+        <Link className='clientelogo' to="/clientes"> <img src={Client} className='logob'></img></Link>
+        <h4 className='text-logoa'>CLIENTES</h4>
+       </div>
+       <div className='logob1'>
+       <Link className='clientelogo' to="/funcionarios"> <img  src={Func} className='logob' ></img></Link>
+       <h4 className='text-logob'>FUNCIONÁRIOS</h4>
+       </div>
+       <div className='logob1'>
+       <Link className='clientelogo' to="/usuario"><img src={Hosmi} className='logob' ></img></Link>
+       <h4 className='text-logoc'>USUÁRIOS</h4>
+       </div>
+       <div className='logob1'> 
+       <Link className='clientelogo'to="/sala"> <img src={Sla} className='logob'></img> </Link>
+       <h4 className='text-logod'>SALAS</h4>
+       </div>
+       <Footer/>
+    </Container>
 
-        <br></br>
 
-      <Footer/>
+ 
+    )
 
-    </div>
-
-      )
-      };
-
+}
 export default Index;
+  
